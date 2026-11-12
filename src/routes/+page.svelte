@@ -1,4 +1,5 @@
 <script>
+	import CatFact from "./CatFact.svelte";
 	import NameSync from "./NameSync.svelte";
     import PopGoes from "./PopGoes.svelte";
 </script>
@@ -7,3 +8,4 @@
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 <PopGoes max=5 onpop={() => {alert("pop")}}></PopGoes>
 <NameSync></NameSync>
+<CatFact></CatFact>
